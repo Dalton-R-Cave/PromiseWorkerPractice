@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="practice">
+    <script src="practice.js"></script>
+</p>
+
+<p>
+    First Number: <input id = "firstNumber" type="text" value="0" size=4/>
+</p>
+
+<p>
+    Second number: <input id = "secondNumber" type="text" value="0" size=4/>
+</p>
+
+<button type="button" id="sumButton">Add Numbers</button>
+
+<p id="demo"></p>
+
+<script src="sum_worker.js"></script>
+<script src="practice.js"></script>
+<button type="button" onclick="list()">Change Stuff</button>
+<button type="button" onclick="iterate(10, 5)">Iterate</button>
+
+<p>Iteration Result: </p>
+<p id="iterationResult"></p>
+
+<p>Changed Stuff: </p>
+<p id="changedStuff"></p>
+
+<script>window.onload = main</script>
+</body>
+</html>
